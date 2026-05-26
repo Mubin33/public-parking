@@ -34,11 +34,11 @@ export default function Footer() {
             </p>
 
             {/* Links + Contact */}
-            <div className="flex gap-16 mt-12">
+            <div className="flex gap-5 md:gap-16 mt-12">
 
               {/* Quick Links */}
               <div>
-                <h3 className="text-white font-bold text-xl uppercase">
+                <h3 className="text-white font-bold text-base md:text-xl uppercase">
                   Quick Link
                 </h3>
 
@@ -83,7 +83,7 @@ export default function Footer() {
 
               {/* Contact */}
               <div>
-                <h3 className="text-white font-bold text-xl uppercase">
+                <h3 className="text-white font-bold text-base md:text-xl uppercase">
                   Contact Us
                 </h3>
 
@@ -121,7 +121,7 @@ export default function Footer() {
           {/* Right Section */}
           <div className="flex flex-col ">
 
-       <div className="">
+       <div className="mt-5 md:mt-0">
              <h3 className="text-[#F5F5F5] font-bold text-lg  uppercase ">
               Subscribe
             </h3>
@@ -131,10 +131,10 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Email"
-                className="flex-1 px-6 py-4 outline-none text-[#B2373099]"
+                className="flex-1 px-2 md:px-6 py-4 outline-none text-[#B2373099]"
               />
 
-              <button className="bg-[#0F172A] text-white px-6 py-3 rounded-lg mr-2 font-semibold hover:bg-black transition">
+              <button className="bg-[#0F172A] text-white px-2 md:px-6 py-3 rounded-lg mr-2 text-sm md:text-base  font-semibold hover:bg-black transition">
                 SUBSCRIBE
               </button>
             </div>

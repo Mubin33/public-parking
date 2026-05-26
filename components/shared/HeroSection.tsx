@@ -2,7 +2,6 @@ import { Car, Bot } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { QuoteForm } from "@/components/shared/QuoteForm";
-import FloatingChatWidget from "./FloatingChatWidget";
 
 export function HeroSection() {
   return (
@@ -50,7 +49,7 @@ export function HeroSection() {
         </div>
       </div>
 
-  <FloatingChatWidget/>
+  
     </section>
   );
 }
