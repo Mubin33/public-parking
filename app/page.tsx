@@ -9,6 +9,7 @@ import PricingSection from "@/components/PricingSection";
 import VisitUsSection from "@/components/VisitUsSection";
 import CTASection from "@/components/CTASection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import FloatingChatWidget from "@/components/shared/FloatingChatWidget";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <TestimonialsSection/>
       <VisitUsSection/>
       <CTASection/>
+      <FloatingChatWidget/>
     </main>
   );
 }
